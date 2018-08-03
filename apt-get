@@ -1,0 +1,20 @@
+apt-get -s – przeprowadza symulację instalacji (dowiemy się czy instalacja przebiegnie bez problemów)
+apt-get -f – apt-get sam znajdzie rozwiązanie problemu
+apt-get -m – zignorować brakujące zależności
+apt-get -y – która automatycznie odpowiada na wszystkie pytania „tak”
+apt-get –reinstall – gdy chcemy tylko przeinstalować tę samą wersję danego programu
+apt-get –fix-missing – naprawa uszkodzonych, źle pobranych pakietów
+apt-get -t repository – pozwala określić repozytorium online, z którego chcemy pobrać pakiet i wszystkie zależności
+
+apt-get autoremove – usuwa osierocone pakiety
+apt-get clean – usuwa wszystkie pakiety, które już pobraliśmy i zainstalowaliśmy
+apt-get auto-clean – usuwa pakiety, których nie można już pobrać
+Po uruchomieniu trzech wyżej wymienionych polecenń łatwo możemy zwolnić troche miejsca na dysku bez wpływania na funkcjonowanie systemu
+
+apt-get check – dostarcza informacji o funkcjonowaniu pakietu
+apt-get update – odświeża bazę
+apt-get upgrade – wykonuje update pakietów
+apt-get dist-upgrade – wykonuje update całego systemu
+
+
+sudo apt-get install -f  naprawia uszkodzone pakiety
