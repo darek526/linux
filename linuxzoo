@@ -1,0 +1,21 @@
+Linuxzoo
+Question 4: GREP and regexp
+
+How many words have the string "ra" in them twice in /usr/share/dict/words? 
+grep -E "ra.*ra" /usr/share/dict/words |wc -l
+odp: 808
+How many words are in /usr/share/dict/words which contains "ice" then immediately following that either an "s" or a "d" (i.e. ices or iced). Use square brackets to form a set in your regular expression. 
+grep -E "ice[s,d]" /usr/share/dict/words |wc -l
+411
+
+Use grep on words to find a word that contains each of the vowels in alphabetical (i.e first an A, then an E, etc) order in /usr/share/dict/words. How many such words are there? (you may include words with extra vowels such as adventitious. A vowel is one of A,E,I,O,U. 
+grep -E "a.*e.*i.*o.*u.*" /usr/share/dict/words |wc -l
+247
+
+The word interlinking includes the same two characters (e.g. "in") which appear three times. The word "priestessess" also contains the same two characters repeated three time (e.g. "es").
+grep "\(..\).*\1.*\1.*" /usr/share/dict/words  |wc -l
+743
+
+How many words are 5 character palindromes? A palindrome is a word spelled the same way forward and backwards, such as "sagas". Use /usr/share/dict/words. Hint: Use multiple groups and backreferences.
+grep "^.....$" /usr/share/dict/words  | grep "\(.\)\(.\).\2\1" | wc -l
+46
