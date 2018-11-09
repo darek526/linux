@@ -31,8 +31,66 @@ history 4
 !143 
 	wykonaj polecenie nr z history, zwłaszcza gdy jest długie
 		efekt po naciśnięciu enter: sudo apt-get install python3-logilab-common
+		
+pwd 
+	wyświetla katalog w którym aktualnie się znajdujemy
+	/home/demo	katalog domowy
+ls	
+	wyświetla zawartość katalogu w którym się znajdujemy:
+	Desktop  Documents  Downloads  images  info  lines  Music  mydir  mydir1  
+	Pictures  Public  suspect  Templates  test1  theanalysis  tree  Videos
+ls /home
+	wyświetla zawartość katalogu do którego podano sćieżkę dostśpu
+	alice demo
+ls -l
+	wyświetla szczegółową listę plików i katalogów w katalogu w którym jesteśmy:
+	uprawnienia położenie rozmiar data modyfikacji nazwa
+	drwxr-xr-x. 2 demo tutorial       6 Oct 22 11:13 Desktop
+	drwxr-xr-x. 2 demo tutorial       6 Oct 22 11:13 Documents
+	drwxr-xr-x. 2 demo tutorial       6 Oct 22 11:13 Downloads itd
+ls -a
+	wyświetla zawartość katalogu w którym jesteśmy, dodatkow wszystkie pliki ukryte(z kropką):
+	.   alist          .bash_logout   .bashrc  cd       data     Documents  .esd_auth      
+	images  lines   .mozilla  mydir   Pictures  suspect    test1        tree    words
+	..  .bash_history  .bash_profile  .cache   .config  Desktop  Downloads  .ICEauthority  
+	info    .local  Music     mydir1  Public    Templates  theanalysis  Videos
+ls -al
+	połączeni ls -a i ls -lwyśietla szczegółowo wszystkie ppliki również ukryte
+	drwx------. 22 demo tutorial    4096 Oct 23 13:56 .
+	drwxr-xr-x.  4 root root          29 Oct 22 11:10 ..
+	-rw-r--r--.  1 demo tutorial    2161 Oct 23 14:00 alist
+	-rw-------.  1 demo tutorial    5173 Nov  9 11:26 .bash_history
+	-rw-r--r--.  1 demo tutorial      18 Dec  6  2016 .bash_logout
+	-rw-r--r--.  1 demo tutorial     193 Dec  6  2016 .bash_profile
+	-rw-r--r--.  1 demo tutorial     231 Dec  6  2016 .bashrc
+	drwx------.  9 demo tutorial    4096 Oct 22 12:52 .cache
+	-rw-r--r--.  1 demo tutorial       0 Oct 22 22:59 cd
+	drwxr-xr-x. 14 demo tutorial    4096 Oct 22 11:13 .config
+	drwxr-xr-x.  2 demo tutorial      89 Oct 22 22:04 data
+	drwxr-xr-x.  2 demo tutorial       6 Oct 22 11:13 Desktop
+	drwxr-xr-x.  2 demo tutorial       6 Oct 22 11:13 Documents
+ls -r
+	wyświetla zawartość katalogu w którym jesteśmy ale w odwrotnej kolejności:
+	words  Videos  tree  theanalysis  test1  Templates  suspect  Public  Pictures 
+	itd.
+ls -alr
+	wszystkie katalogi szczegółowo w odwrotnej kolejności
+	(kolejność alr lub lar lub ral nie ma znaczenia)
+cd Desktop
+	przejście do katalogu Desktop poziom niżej
+cd ..
+	przejście do katalogu poziom wyżej(krok do tyłu)
+cd ../..
+	przejście 2 katalogi wyżej (2 kroki do tyłu)
+cd .
+	odnosi się do katalogu w którym jesteśmy
+cd
+	przejście do katalogu domowego  z jakiego kolwiek miejsca
+cd Desktop/pliki
+	ścieżka relatywna z katalogu w którym jesteśmy(domowy czyli demo) teraz 
+	wpisujemy scieżke do miejsca docelowego katalog pliki
+cd /home/demo/Desktop/pliki
+	ścieżka absolutna zaczynamy od katalogu głównego
+	wpisujemy wszystkie katalogi odzielając je /
 
-
-
-
-
+	
