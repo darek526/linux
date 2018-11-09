@@ -133,6 +133,37 @@ mkdir nazwa_katalogu
 	utworzenie nowego katalogu
 mkdir nazwa1 nazwa2 nazwa3
 	utworzenie kilku katalogów jednym poleceniem
+rmdir nazwa_katalogu
+	usunięci pustego katalogu
+	nie uda usunąć katalogu z jakąkolwiek zawartością
+rm -r nazwa_katalogu
+	potrafi usunąć katalog z zawartością podkatalogów lub plików
+rm -ri nazwa_katalogu
+	komp zapyta czy usunąć zawartość katalogu
+	następnie zapyta czy usnąć każdy plik osobno
+	jesli zostanie chociaż jeden plik nie usunie tego katalogu
+	bo nie jest pusty
+cp plik_istniejący nowy_plik
+	skopiuje zawartość istniejącego pliku i stworzy drugi o podanej nazwie
+	z taką samą zawartośćią jak istniejący
+cp plik_istniejący Nazwa_katalogu/
+	skopiuje plik_istniejący i wklei go wybraneogo katalogu
+cp plik_istniejący Nazwa_katalogu/nowa_nazwa
+	skopiuje zawartość plik_istniejący 
+	wklei zawartość do wybranego katalogu używająć nowej nazwy
+cp * nazwa_katalogu/
+	skopiuje wszystkie pliki(nie kopiuje katalogów) do wskazanego katalogu
+cp * /home/demo/Desktop
+	skopiuje zawartość katalogu w którym jesteśmy(tylko pliki)
+	wkleii po podanej ścieżce
+cp *.jpg /home/demo/Desktop
+	skopiuje wszystkie pliki z roższerzeniem jpg
+	wkleii po podanej ścieżce
+cp abc* /home/demo/Desktop
+	skopiuje wszystkie pliki których nazwa zaczyna się na abc 
+	wkleii po podanej ścieżce
+mv nazwa_pliku
+
 	
 
 	
