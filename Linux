@@ -1,0 +1,38 @@
+kurs:
+https://www.youtube.com/watch?v=2ELD3DpQodA&index=1&list=PLbOPmSDkHx2rDqgPrV1tkqGGLEiR046ui
+
+man
+Jakiej strony podręcznika potrzebujesz?
+
+man pwd
+NAZWA
+       pwd - wypisuje nazwę bieżącego katalogu roboczego
+
+SKŁADNIA
+       pwd [OPCJA]...
+
+clear - czyści ekran terminala (Windows cls)
+
+tabulator kończy lub podwiada polecenia
+strzałka góra dół cofamy się do wcześnieszych poleceń
+
+history historia poleceń:
+  141  pytest-3 test_task.py
+  142  pytest3 test_task.py
+  143  sudo apt-get install python3-logilab-common
+  144  pytest3 test_task.py
+  145  pytest test_task.py
+  146  pytest3 test_task.py
+  147  pytest3 test_task.py
+  148  cd
+  294  history
+history 4
+	4 ostatnie polecenia
+!143 
+	wykonaj polecenie nr z history, zwłaszcza gdy jest długie
+		efekt po naciśnięciu enter: sudo apt-get install python3-logilab-common
+
+
+
+
+
