@@ -1,5 +1,5 @@
-#kurs:
-	https://www.youtube.com/watch?v=2ELD3DpQodA&index=1&list=PLbOPmSDkHx2rDqgPrV1tkqGGLEiR046ui
+kurs:
+https://www.youtube.com/watch?v=2ELD3DpQodA&index=1&list=PLbOPmSDkHx2rDqgPrV1tkqGGLEiR046ui
 
 man
 Jakiej strony podręcznika potrzebujesz?
@@ -162,7 +162,12 @@ cp *.jpg /home/demo/Desktop
 cp abc* /home/demo/Desktop
 	skopiuje wszystkie pliki których nazwa zaczyna się na abc 
 	wkleii po podanej ścieżce
-mv nazwa_pliku
+mv nazwa_pliku nazwa_katalogu/
+	wytnie plik z katalogu w którym jesteśmy i przeniesie go do innego katalogu
+mv nazwa_pliku nowa_nazwa_pliku
+	zmiana nazwy pliku w tym samym katalogu
+(8)
+
 
 	
 
