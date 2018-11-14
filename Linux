@@ -197,10 +197,30 @@ mc
 	F5 kopiowanie pliku z lewego panelu do katalogu w prawym panelu
 	F6 Przenosi plik z lewego panelu do prawego
 	F7 Utwarzonie katalogu
-	
-	
-
-
-	
-
-	
+	F8 usunięcie pliku lub katalogu
+	F9 aktywacja górneo menu
+	F10 zamkniecie menadżera MC
+cat nazwa_pliku
+	podgląd zawartości pliku o podanej nazwie
+cat plik1 plik2 > plik3
+	skopiowanie zawartości dwóch plików i zapisanie w nowym pliku
+tac nazwa_pliku
+	podgląd zawartości pliku o podanej nazwie ale 
+	zawartość wyśietlona od końca
+sort nazwa_pliku
+	podgląd zawartości pliku o podanej nazwie ale
+	posortowane w porządku alfabetycznym
+file nazwa_pliku
+	określa rodzaj pliku
+find -name nazwa_pliku
+	wyszukuje plik o podanej nazwie
+find -name "ad*"
+	wyszukuje wszystkie pliki których nazwa zaczyna się od liter ad
+find -type f -name"*.txt"
+	wyszukuje wszystkie pliki(f) [katalogi (d), dowiazania(l)] typu txt
+nl nazwa_pliku
+	numeruje linie w pliku o podanej nazwie
+wc nazwa_pliku
+	zlicza ilość lini wyrazów znaków w pliku np:
+	wc plik.txt 
+ 	3  8 48 plik.txt
