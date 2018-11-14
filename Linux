@@ -169,6 +169,36 @@ mv nazwa_pliku nazwa_katalogu/
 mv nazwa_pliku nowa_nazwa_pliku
 	zmiana nazwy pliku w tym samym katalogu
 (8)
+nano nazwa_pliku
+pico nazwa_pliku
+	utworzenie (edycja) pliku 
+	wpisanie samego polecenia pico lub nano utworzy nowy pusty plik bez nazwy
+	podczas tworzenia (edycji) poruszamy się po zawartośći za pomocą strzałek
+	Ctrl+a przenosi nas na początek linii w której jesteśmy
+	Ctrl+e przenosi na koniec linii w której jesteśmy
+	Ctrl+k kasowanie (wycinanie ) całej linii w której jesteśmy
+	Ctrl+d kasowanie znaku który jest właśnie podświetlany
+	Ctrl+u wklejanie zawartości bufora(pamięci)
+	Ctrl+g uruchomienie pomocy edytora nano
+	Ctrl+x wyjście z pliku
+	Ctrl+c anuluj
+	Ctrl+o zapisz plik
+	Ctrl+w wyszukaj
+	Ctrl+y porzednia strona
+	Ctrl+v nastepna strona
+	Ctrl+c podaje bieżącą pozycje kursora 
+mc 
+	uruchamia Midnight Commander (menedżer plików)
+	poruszamy się za pomocą strzałek przejście między panelami tab
+	F1 pomoc programu
+	F2 doatkowe polecenia np: kompresownie pliku wysyłanie na zewnętrzny serwer
+	F3 podgląd pliku
+	F4 edycja pliku
+	F5 kopiowanie pliku z lewego panelu do katalogu w prawym panelu
+	F6 Przenosi plik z lewego panelu do prawego
+	F7 Utwarzonie katal
+	
+	
 
 
 	
