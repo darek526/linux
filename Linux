@@ -224,3 +224,62 @@ wc nazwa_pliku
 	zlicza ilość lini wyrazów znaków w pliku np:
 	wc plik.txt 
  	3  8 48 plik.txt
+przekierowania >  >>
+ls > plik.txt
+	nie wyświetli nam zawartości katalogu w którym jesteśmy tlko
+	informacja ta zostanie przekierowany (zapisany) w pliku plik.txt 
+	jeśli nie ma takiego pliku zostanie utworzony
+	jeśli jest czyści jego zawartość i wyśietla tylko efekt ostatniego polecenia
+ls -la >> plik.txt
+	wynik polecenia ls -la (szczegółowa zawartość katalogu wraz z plikami ukrytymi)
+	zostanie dopisana do zawartości pliku  plik.txt
+ps -aux >aktywnosc
+	ps -aux aktualnie uruchomione procesy w sytemie wynik 
+	przekierowuje(zapisuje) do pliku aktywnosc
+potoki |
+polecenie1 | polecenie2 | polecenie3
+	wynik polecenia1 zostanie wysłane na wejście polecenia2 następnie wynik polecenia2
+	zostanie przekazany na wejście poleceni3
+cat aktywnosc | less
+	wyświetla zawartość pliku aktywność i umożliwia jego przeglądanie za pomocą strzałek
+	na polecenie cat nakładany jest filtr less
+apropos mount
+	apropos(podpowiada) przeszukuje wszystkie strony podręcznika man i szuka 
+	wpisów powiązanych ze słowem kluczowym mount (polecenia ze słowem mount)
+type komenda
+	określa typ komendy
+	type ls
+	ls jest aliasem do ls --color=auto'
+	type df
+	df jest /bin/df
+whatis komenda
+	opis i informację o komendzie
+	whatis ls
+	ls (1)               - wypisuje zawartość katalogu
+whereis komenda
+	gdzie znaiduj się plik wykonywalny dla danego polecenia 
+	jego źródła strony podręcznika man
+	whereis ls
+	ls: /bin/ls /usr/share/man/man1/ls.1.gz
+	plik wykonywalny polecenia znajduj się /bin/ls
+	pomoc podręcznika man /usr/share/man/man1/ls.1.gz
+which komenda
+	lokalizacja pliku wykonywalnego
+	which ls
+	/bin/ls
+man komenda
+	wyświetla strone podręcznik dla danej komendy
+13
+ps
+	  PID TTY          TIME CMD
+	 4448 pts/1    00:00:00 bash
+	 4954 pts/1    00:00:00 ps
+	aktualnie działające procesy w tle
+ps aux
+	aktualnie działające procesy w tle szczegóły
+top
+	wyświetla procesy w sposób dynamiczany(na ieżąco aktualizowana)
+	
+	
+	
+	
