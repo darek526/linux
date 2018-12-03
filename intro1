@@ -1,1 +1,17 @@
+2 cal 2002#kalendarz na cały 2002 rok
+  cal 12 2002 #tylko na grodzień 2002 roku
+  cal #aktualny miesiąc
+3 cal 2005 >> yearfile 
+  #tworzym kalendarz an 2005 ale nie wyświetlamy go tylko (PRZEKIEROWANIE)zamisujemy do pliku o nazwie yearfile
+4 ls -la wyświetla wszystkie pliki liczymy
+5
+6 date >>thismonth
+7 cp yearfile yearlife3
+8 rm yearfile
+10 cat thismonth yearfile2 thisyear >> bigfile
 
+intro2
+
+3 cp  /etc/group  /home/demo/work/misc
+  cp  /etc/vimrc  /home/demo/work/misc
+4  
