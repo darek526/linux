@@ -19,3 +19,42 @@ grep "\(..\).*\1.*\1.*" /usr/share/dict/words  |wc -l
 How many words are 5 character palindromes? A palindrome is a word spelled the same way forward and backwards, such as "sagas". Use /usr/share/dict/words. Hint: Use multiple groups and backreferences.
 grep "^.....$" /usr/share/dict/words  | grep "\(.\)\(.\).\2\1" | wc -l
 46
+*****************************
+VII Essential Unix commands
+1 
+  ls /|wc
+     20      20      87
+     odp 20
+2
+  nano /etc/motd
+  wpisujemy Welcome zapisujemy zamykamy
+3
+  id operator
+uid=11(operator) gid=0(root) groups=0(root)
+  11
+  4
+    ls -l /var/cache/
+      apache
+5
+  ls -l /
+  root brak odczytytu dla innych bo:
+  dr-xr-x---.   5 root root  4096 Nov  5  2016 root
+6
+  chmod -R 755 /var/log/httpd(-R zmienia uprawnienia do wszystkich plików i katalogów w katalogu httpd)
+  (Tylko trzeba być zalogowanym jako root) 
+7
+  chown operator /etc/ntp.conf
+  operator został właścicielem pliku ntp.conf
+8
+  chmod -R 733 dropzone/
+  root wszystko pozostali tylko zapis uruchomienie
+9
+  ln -s /usr/share/dict/words /root/words
+  dowiazania symboliczne ta sama komenda be -s tworzy dowiazanie twarde
+  po komendzie ls -l dowiązanie twrde idoczne jst jako plik(-rwxrwxrwx.), symboliczne ma literę l(lrwxrwxrwx.)
+10
+  grep '.*a.*e.*i.*o.*u' /root/words |wc
+  wszystkie słowa z samogłoskami w kolejności wystepowania smogłosek w alfabecie
+  247
+11
+  
