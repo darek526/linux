@@ -29,6 +29,12 @@ lub :wq(zapis i wyjście z pliku)
 3 vi ex1
 x kasuje znak po kursorem an i 1 spacja
 esc :wq
+4 vi ex1
+G(kursor na koniec pliku)
+$(kursor na koniec linii)
+wpisujemy tekst
+esc :wq
+5 
 *******************************
 VII Essential Unix commands
 1 
