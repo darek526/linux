@@ -22,10 +22,13 @@ grep "^.....$" /usr/share/dict/words  | grep "\(.\)\(.\).\2\1" | wc -l
 *****************************
 VI Vi
 1 logowanie demo
-2 vi ex1
+2 vi ex1(wejście do pliku ex1)
 wpisujemy tekds
-esc :w enter(zapis zmian) :qwyjście z pliku
+esc :w (zapis zmian) :q(wyjście z pliku)
 lub :wq(zapis i wyjście z pliku)
+3 vi ex1
+x kasuje znak po kursorem an i 1 spacja
+esc :wq
 *******************************
 VII Essential Unix commands
 1 
