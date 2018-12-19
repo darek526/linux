@@ -19,6 +19,11 @@ grep "\(..\).*\1.*\1.*" /usr/share/dict/words  |wc -l
 How many words are 5 character palindromes? A palindrome is a word spelled the same way forward and backwards, such as "sagas". Use /usr/share/dict/words. Hint: Use multiple groups and backreferences.
 grep "^.....$" /usr/share/dict/words  | grep "\(.\)\(.\).\2\1" | wc -l
 46
+
+*****************
+V
+14 find /etc/ -size +1M>s10
+
 *****************************
 VI Vi
 1 logowanie demo
@@ -73,4 +78,9 @@ uid=11(operator) gid=0(root) groups=0(root)
   wszystkie słowa z samogłoskami w kolejności wystepowania smogłosek w alfabecie
   247
 11
+
+***************
+VIII
+Administrator
+1
   
