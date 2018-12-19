@@ -20,6 +20,13 @@ How many words are 5 character palindromes? A palindrome is a word spelled the s
 grep "^.....$" /usr/share/dict/words  | grep "\(.\)\(.\).\2\1" | wc -l
 46
 *****************************
+VI Vi
+1 logowanie demo
+2 vi ex1
+wpisujemy tekds
+esc :w enter(zapis zmian) :qwyjście z pliku
+lub :wq(zapis i wyjście z pliku)
+*******************************
 VII Essential Unix commands
 1 
   ls /|wc
