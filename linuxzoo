@@ -23,7 +23,7 @@ grep "^.....$" /usr/share/dict/words  | grep "\(.\)\(.\).\2\1" | wc -l
 *****************
 V
 14 find /etc/ -size +1M>s10
-
+15 find /usr/include/ -type f -name 's*' -size -25 -exec cp {} /home/demo/smallc \;
 *****************************
 VI Vi
 1 logowanie demo
