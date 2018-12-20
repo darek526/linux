@@ -39,7 +39,13 @@ G(kursor na koniec pliku)
 $(kursor na koniec linii)
 wpisujemy tekst
 esc :wq
-5 
+5 vi ex2
+esc
+:set number
+enterem przechodzimy do 50 lini
+:wq
+6
+
 *******************************
 VII Essential Unix commands
 1 
