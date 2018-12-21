@@ -46,8 +46,15 @@ enterem przechodzimy do 50 lini
 :wq
 6 wpisanie tekstu w cudzysłowiu do pliku
 echo "123456789 123456789" >> ex2
+wystarczy wpisać w nastepną linie 51
 7
-
+^7l przenosi kursor na 7 znak czyli na 8
+wpisujemy 8
+8
+$7h kursor stoi przed 7 pozycją liczoną od końca
+    2
+9
+    28
 
 *******************************
 VII Essential Unix commands
