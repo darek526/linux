@@ -44,7 +44,10 @@ esc
 :set number
 enterem przechodzimy do 50 lini
 :wq
-6
+6 wpisanie tekstu w cudzysłowiu do pliku
+echo "123456789 123456789" >> ex2
+7
+
 
 *******************************
 VII Essential Unix commands
