@@ -98,5 +98,18 @@ uid=11(operator) gid=0(root) groups=0(root)
 ***************
 VIII
 Administrator
-1
-  
+1 root secure(logujemy się jako root)
+    fdisk -l
+    wpisujemy wartośc  kolumny blocks pierwszej partycji
+    512000
+2   Aby sprawdzić informacje o dostępnych physical volumes wykonujemy:
+    pvdisplay
+    wpisujemy:
+        /dev/sda2
+        centos_lvm
+ 3 Aby wyświetlić wszystkie logiczne wolumeny:
+     lvdisplay
+    polecenie wyświetla nam informację takie jak np. rozmiar, nazwę vg na którym znajduje się logiczny wolumen, 
+    czas utworzenia oraz nazwę hosta na którym był tworzony.
+    LV PATH wpisujemy /dev/centos_lvm/root
+    
