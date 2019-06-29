@@ -1,6 +1,7 @@
  # naprawa hibernacji 
 
   https://ubuntu.pl/forum/viewtopic.php?f=146&t=145866&p=841382&hilit=ubuntu+18#p841382
+  
   http://www.ubuntu-pomoc.org/naprawa-hibernacji/
   
-https://www.youtube.com/watch?v=-5GOGg1ASLw
+  https://www.youtube.com/watch?v=-5GOGg1ASLw
