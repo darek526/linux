@@ -1,5 +1,5 @@
  # naprawa hibernacji 
- ### ssd ubuntu 19.04 pomogło to
+ ### ssd ubuntu 19.04[04.07.2019] pomogło to
   https://askubuntu.com/questions/893817/boot-very-slow-because-of-drm-kms-helper-errors
  ### zamiast gedit użyłem nano ale na ssd nie poszło
 
